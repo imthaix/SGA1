@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meu time </title>
+
+    <link rel="stylesheet" href="/MENU/menu.css">
+    <link rel="stylesheet" href="team.css">
+
+</head>
+<body>
+
+  <header>
+    <div id="menu">
+      <div id="welcome"> Raysa Goiz </div>
+      <div id="buttons">
+        <a href="/HOME/home.html">
+          <button onclick="goTo('home')">Home</button>
+        </a>
+
+        <a href="/TEAM/team.html">
+          <button onclick="goTo('team')">Meu Time</button>
+        </a>
+          
+        <a href="/DADOS/dados.html">
+           <button onclick="goTo('dados')">Dados</button> 
+        </a>
+          
+        <a href="/NOTES/notes.html">
+            <button onclick="goTo('notes')">Notes</button>
+        </a>
+          
+      </div>
+      <button id="logout" onclick="logout()">Sair</button>
+  </div>
+  </header>
+
+  <div id="container">
+
+    <div id="patio de de insumos" class="area">
+        <h2> Pátio / insumos </h2>
+        <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <div id="Moagem" class="area">
+        <h2> Moagem </h2>
+        <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+      <div id="filtragem" class="area">
+          <h2> Filtragem </h2>
+          <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+  
+      <div id="Pelotamento" class="area">
+          <h2> Pelotamento </h2>
+          <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+  
+      <div id="Forno" class="area">
+          <h2> Forno </h2>
+          <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+
+      <div id="Peneiramento" class="area">
+        <h2> Peneiramento </h2>
+        <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+
+  </div>
+
+  <div id="ausentes">
+
+      <div id="Ferias Folga" class="area">
+        <h2> Férias / Folga </h2>
+        <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+  
+      <div id="HN" class="area">
+        <h2> Apoio HN / usina </h2>
+        <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+  
+      <div id="Restrito" class="area">
+        <h2> Restritos </h2>
+        <div class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+  </div>
+
+
+
+<div id="equipe">
+    <div id="veraldo" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="ismaihe" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="ismael" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="tiago" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="harlen" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="wanderson" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="deysiane" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="parley" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="nathalia" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="thais" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="marcio" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+    <div id="matheus" class="team-member" draggable="true" ondragstart="drag(event)"></div>
+
+
+    <div id="raysa" class="team-member" draggable="true" ondragstart="drag(event)">
+      <a href=""> <!-- link pop it -->
+        <img id="raysa" src="/TEAM/images/raysagoiz.png" alt="raysa" class="team-member" onclick="showInfo('raysa')">
+      </a>
+    </div>
+
+    <a href="">
+
+    </a>
+
+</div>
+
+<script src="team.js"></script>
+
+</body>
+</html>
+
+

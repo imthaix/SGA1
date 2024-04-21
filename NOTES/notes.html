@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Anotações </title>
+
+    <link rel="stylesheet" href="/MENU/menu.css">
+    <link rel="stylesheet" href="notes.css">
+    
+    <script src="/MENU/menu.js"></script>
+
+
+</head>
+<body>
+
+  <!-- MENU -->
+    <header>
+        <div id="menu">
+          <div id="welcome"> Raysa Goiz </div>
+          <div id="buttons">
+            <a href="/HOME/home.html">
+              <button onclick="goTo('home')">Home</button>
+            </a>
+  
+            <a href="/TEAM/team.html">
+              <button onclick="goTo('team')">Meu Time</button>
+            </a>
+              
+            <a href="/DADOS/dados.html">
+               <button onclick="goTo('dados')">Dados</button> 
+            </a>
+              
+            <a href="/NOTES/notes.html">
+                <button onclick="goTo('notes')">Notes</button>
+            </a>
+              
+          </div>
+          <button id="logout" onclick="logout()">Sair</button>
+      </div>
+      </header>
+      
+      <main>
+        <div class="container">
+            <div class="addNote-content">
+            <div class="icon-plus"> + </div>
+            <span> Adicionar nota </span>
+            </div>
+        <div class="content"></div>
+        </div>
+      </main>
+      
+      <script src="notes.js"></script>
+</body>
+</html>

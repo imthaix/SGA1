@@ -1,0 +1,81 @@
+*{
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #002C39;
+}
+
+
+/* card para para ajustar o forms */
+.card-form{ 
+    background: #013f525a;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+
+/* titulo sistema de gestão equipe A1 */
+.card-login{
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.title{
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* matricula e senha */
+.login-form{
+    text-align: left;
+    color: #6dcbc0;
+}
+
+.card-user{
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form .box-user{ /* escrita da matricula e senha*/
+    position: relative;
+    color: white;
+}
+
+.login-form .box-user input{ /* box da matricula e senha */
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 8px;
+    outline: none;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.btnEntrar{ /* botão de entrar */
+    font-size: 10px;
+    padding: 10px 150px;
+    width: 50px;
+    color: white;
+    background-color: none;
+    border: 1px solid none;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    float: center;
+}

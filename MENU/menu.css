@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#welcome {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#buttons {
+    display: flex;
+}
+
+#buttons button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#logout {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Regras de mídia para tornar o menu responsivo */
+@media only screen and (max-width: 600px) {
+    #menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #buttons {
+        margin-top: 10px;
+    }
+
+    #buttons button, #logout {
+        margin: 5px 0;
+    }
+}

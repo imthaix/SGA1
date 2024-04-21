@@ -1,0 +1,42 @@
+#container {
+    display: flex;
+}
+
+.area {
+    width: 30%;
+    border: 2px solid #aaa;
+    padding: 2px;
+    margin: 10px;
+}
+
+.area h2 {
+    margin: 0;
+}
+
+.droppable {
+    min-height: 100px;
+    border: 5px #aaa;
+}
+
+#equipe {
+    display: flex;
+    margin-top: 20px;
+}
+
+.team-member { /* imagens da equipe */
+    width: 130px;
+    height: 130px;
+    background-color: #4CAF50;
+    margin-right: 30px;
+}
+
+/* Regras de mídia para tornar o menu responsivo */
+@media only screen and (max-width: 600px) {
+    #container {
+        flex-direction: column;
+    }
+
+    .area {
+        width: 100%;
+    }
+}
